@@ -1,0 +1,47 @@
+body{
+    font-weight: 400;
+    font-family: Arial;
+    font-size: 15px;
+    line-height: 2.2em;
+    color:#818181;
+    margin: 0;
+    }
+
+
+ header{
+    background-color: hsla(256, 91%, 54%, 0.927);
+}
+
+section,footer{
+    margin: 40px;
+}
+
+
+
+
+
+nav li a{
+    padding: 10px;
+    color:rgb(240, 244, 245);
+    text-decoration: none;
+}
+
+nav li a{
+    float: left;
+}
+
+nav ul a{
+    float: right;
+    list-style: none;
+}
+
+nav{
+    font-size: 12px;
+    letter-spacing: 4px;
+    height: 50px;
+    background-color: #f4f4f4;
+    padding-right: 40px;
+}
+
+
+

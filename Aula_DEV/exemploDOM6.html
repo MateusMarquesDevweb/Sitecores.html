@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo DOM 6</title>
+</head>
+<body>
+    <ul class="listaUL">
+
+    </ul>
+
+
+
+</body>
+<script>
+    times = ["time1", "time2", "time3", "time4"]
+
+    var listadetimes = document.querySelector('ul.listaUL');
+    for ( i = 0; i < times.length; i ++){
+        var time = times[i];
+        var listItem = document.createElement('li');
+     listItem.innerText = time;
+    listItem.style.border = '1px solid black'
+    listadetimes.appendChild(listItem);
+    }
+</script>
+</html>
